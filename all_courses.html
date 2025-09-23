@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Courses - Emmy Uni</title>
+    <link rel="stylesheet" href="./css/courses.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- header section -->
+    <section class="header_section" id="header_section">
+        <!-- Navbar gets fetched here -->
+        <div id="nav" class="nav"></div>
+
+        <!-- Hero with slider -->
+        <div class="hero content">
+            <div class="slides" id="slides">
+                <div class="slide slide1 active">
+                    <h1>Welcome to Emmy University</h1>
+                    <p>
+                        Your Gateway to Knowledge and Excellence beyond limits.
+                        A place where students are inspired to dream big and achieve beyond limits.
+                    </p>
+                </div>
+                <div class="slide slide2">
+                    <h1>Learn. Grow. Achieve.</h1>
+                    <p>
+                        At Emmy University, we nurture leaders with knowledge,
+                        innovation, and character to shape tomorrow’s world.
+                    </p>
+                </div>
+                <div class="slide slide3">
+                    <h1>Smart Learning, Bright Future</h1>
+                    <p>
+                        Experience modern education designed to unlock your potential
+                        and prepare you for global opportunities.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slider dots -->
+            <div class="dots">
+                <div class="dot active" onclick="currentSlide(0)"></div>
+                <div class="dot" onclick="currentSlide(1)"></div>
+                <div class="dot" onclick="currentSlide(2)"></div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <a id="backPortal" href="index.html">← Back to Portal</a>
+        <input type="text" id="searchBar" placeholder="Search courses...">
+        <div id="coursesContainer"></div>
+        <div id="pagination">
+            <button id="prevBtn" class="page-btn">Previous</button>
+            <span class="page-info" id="pageInfo"></span>
+            <button id="nextBtn" class="page-btn">Next</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+
+    <script src="./js/courses.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

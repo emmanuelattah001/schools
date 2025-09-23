@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>school site</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <section class="header_section" id="header_section">
+        <!-- Navbar gets fetched here -->
+        <div id="nav" class="nav"></div>
+
+        <!-- Hero with slider -->
+        <div class="hero content">
+            <div class="slides" id="slides">
+                <div class="slide slide1 active">
+                    <h1>Welcome to Emmy University</h1>
+                    <p>
+                        Your Gateway to Knowledge and Excellence beyond limits.
+                        A place where students are inspired to dream big and achieve beyond limits.
+                    </p>
+                </div>
+                <div class="slide slide2">
+                    <h1>Learn. Grow. Achieve.</h1>
+                    <p>
+                        At Emmy University, we nurture leaders with knowledge,
+                        innovation, and character to shape tomorrow’s world.
+                    </p>
+                </div>
+                <div class="slide slide3">
+                    <h1>Smart Learning, Bright Future</h1>
+                    <p>
+                        Experience modern education designed to unlock your potential
+                        and prepare you for global opportunities.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slider dots -->
+            <div class="dots">
+                <div class="dot active" onclick="currentSlide(0)"></div>
+                <div class="dot" onclick="currentSlide(1)"></div>
+                <div class="dot" onclick="currentSlide(2)"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <main>
+        <div class="main_section">
+            <!-- About Section for Emmy Uni -->
+            <section class="about-section">
+                <div class="about-container">
+                    <div class="about-text">
+                        <h2>About Emmy Uni</h2>
+                        <p>
+                            Emmy Uni is a forward-thinking institution dedicated to academic excellence,
+                            innovation, and personal growth. We provide students with modern learning
+                            resources, expert faculty, and a vibrant community that prepares them to
+                            thrive in a rapidly changing world. At Emmy Uni, education is more than
+                            knowledge — it’s the key to shaping leaders of tomorrow.
+                        </p>
+                        <a class="btn" href="#programs">Explore Programs</a>
+                    </div>
+                    <div class="about-media">
+                        <!-- Replace this with an image or illustration of your choice -->
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students learning" />
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Programs Section for Emmy Uni -->
+        <!-- Quick Links / Courses Section -->
+        <section class="quick-links-section">
+            <div class="quick-links-container">
+                <h2>programs and requirement </h2>
+                <div class="links-grid">
+                    <div class="link-card">
+                        <h3>Admissions</h3>
+                        <p>Learn how to join Emmy Uni, admission requirements, and application deadlines.</p>
+                        <ul>
+                            <li>for undergraduate program</li>
+                            <li>for postgraduate</li>
+                            <li>international student</li>
+                        </ul>
+                        <a href="./admission.html#requirements" class="btn-link">Explore</a>
+                    </div>
+                    <div class="link-card">
+                        <h3>Courses</h3>
+                        <p>Explore our diverse range of undergraduate and postgraduate programs.</p>
+                        <ul>
+                            <li><a href="#" id="courseTitle" class="course-link">BSc
+                                    Computer Science</a></li>
+                            <li><a href="#" class="course-link">BA Business
+                                    Administration</a></li>
+                            <li><a href="#" class="course-link">BSc
+                                    Mechanical Engineering</a></li>
+                            <li><a href="#" class="course-link">BSc
+                                    Electrical Engineering</a></li>
+                            <li><a href="#" class="course-link">BA
+                                    Psychology</a></li>
+                            <li><a href="#" class="course-link">BSc Biology</a>
+                            </li>
+                        </ul>
+                        <a href="./all_courses.html" class="btn-link">View All Courses</a>
+                    </div>
+                    <div class="link-card">
+                        <h3>Events</h3>
+                        <p>Check out upcoming university events, seminars, and workshops.</p>
+                        <a href="#events" class="btn-link">See Events</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <h2>Latest News & Announcements</h2>
+            <div id="news-container" class="card-grid"></div>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <div id="events-container" class="card-grid"></div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Footer Section -->
+    <div id="footer"></div>
+</body>
+<script src="./js/script.js"></script>
+
+
+</html>

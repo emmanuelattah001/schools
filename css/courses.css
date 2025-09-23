@@ -1,0 +1,147 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+        }
+
+        /* for all courses page */
+        /* header {
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        } */
+
+        /* header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        } */
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        #backPortal {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            background: #fd79a8;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        #searchBar {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        .course-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .course-card h2 {
+            color: #6c5ce7;
+            margin-bottom: 0.75rem;
+        }
+
+        .course-card p {
+            color: #636e72;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #fd79a8;
+            color: #fff;
+            padding: 0.6rem 1rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        #pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .page-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            background: #6c5ce7;
+            color: #fff;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .page-btn:disabled {
+            background: #b2b2b2;
+            cursor: not-allowed;
+        }
+
+        .page-info {
+            font-weight: 600;
+            color: #636e72;
+        }
+        /* for all courses ends here */
+
+        /* this style for course details */
+
+        .container_details {
+            max-width: 900px;
+            margin: 3rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        }
+
+        .container_details {
+            color: #636e72;
+            line-height: 1.6;
+        }
+
+        .container_details .btn {
+            display: inline-block;
+            background: #fd79a8;
+            color: #fff;
+            padding: 0.6rem 1rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        #backPortal {
+            display: inline-block;
+            margin-bottom: 1rem;
+            background: #6c5ce7;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+        }

@@ -1,0 +1,42 @@
+{
+  "news": [
+    {
+      "title": "University Welcomes New Students",
+      "description": "Orientation week begins with activities, campus tours, and networking sessions for freshers.",
+      "image": "../images/new_student.jpg",
+      "link": "#"
+    },
+    {
+      "title": "Scholarship Applications Now Open",
+      "description": "Apply for the 2025 Academic Excellence Scholarship before the deadline of October 15th.",
+      "image": "../images/scholarship.jpeg",
+      "link": "#"
+    },
+    {
+      "title": "New Engineering Lab Inaugurated",
+      "description": "The state-of-the-art lab is open for students to enhance hands-on learning experiences.",
+      "image": "../images/eng_lab.jpeg",
+      "link": "#"
+    }
+  ],
+  "events": [
+    {
+      "title": "Convocation Ceremony",
+      "description": "Graduating students will be awarded their degrees in the annual convocation ceremony.",
+      "date": "2025-09-30",
+      "image": "../images/convocation.jpeg"
+    },
+    {
+      "title": "Inter-University Debate",
+      "description": "Join us for a debate competition between top universities in the region.",
+      "date": "2025-10-05",
+      "image": "../images/debate.jpeg"
+    },
+    {
+      "title": "Tech Innovation Fair",
+      "description": "Students showcase innovative projects in technology and science.",
+      "date": "2025-10-12",
+      "image": "../images/tech.png"
+    }
+  ]
+}

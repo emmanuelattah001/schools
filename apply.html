@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Admission | University Portal</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/apply_styles.css">
+    <link rel="stylesheet" href="./css/admission_style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- header section -->
+        <section id="header_section">
+            <div id="nav" class="nav">
+
+            </div>
+
+            <!-- hero section -->
+            <div class="header_section">
+                <div class="admission_hero">
+                    <div class="admission_text">
+                        <div>
+                            <h1>admission at emmy uni</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque praesentium
+                                necessitatibus ipsam obcaecati vero porro corrupti, ea id! Illo possimus adipisci
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div class="apply_container">
+        <h2>Application Form</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <!-- Personal Info -->
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="address">Home Address</label>
+            <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+
+            <!-- Academic Info -->
+            <label for="course">Choose Course</label>
+            <select id="course" name="course" required>
+                <option value="">-- Select a Course --</option>
+                <option>BSc Computer Science</option>
+                <option>BSc Data Science</option>
+                <option>BSc Mechanical Engineering</option>
+                <option>BA Business Administration</option>
+                <option>BA Accounting</option>
+                <option>BSc Nursing</option>
+                <option>BA Law</option>
+                <option>BA Political Science</option>
+                <option>BSc Biotechnology</option>
+                <option>BSc Cybersecurity</option>
+            </select>
+
+            <label for="docs">Upload Credentials (PDF/Docs)</label>
+            <input type="file" id="docs" name="docs" accept=".pdf,.doc,.docx,.jpg,.png" required>
+
+            <!-- Submit -->
+            <button type="submit" class="btn-submit">Submit Application</button>
+        </form>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

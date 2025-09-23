@@ -1,0 +1,57 @@
+  /* this for apply.html page style */
+   .apply_container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* h2 {
+            color: var(--primary-color, #6c5ce7);
+            margin-bottom: 20px;
+            text-align: center;
+        } */
+
+        form label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+            color: #333;
+        }
+
+        form input,
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        form input[type="file"] {
+            padding: 5px;
+        }
+
+        .apply_container .btn-submit {
+            margin-top: 20px;
+            width: 100%;
+            padding: 14px;
+            background: var(--primary-color, #6c5ce7);
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn-submit:hover {
+            background: var(--secondary-color, #a29bfe);
+        }
+
+/* apply.html style ends here */
